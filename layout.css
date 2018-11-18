@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+body, html{
+  padding: 0;
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  color: #272725;
+}
+
+h2{
+  color: #272725;
+}
+
+#top-navbar {
+  color: #272725;
+  background: rgb(255, 128, 0);
+  width: 100%;
+  padding: 0.9%;
+  text-align: center;
+  position: fixed;
+}
+
+#top-navbar a{
+  margin: 2%;
+  font-size: 125%;
+  cursor: pointer;
+  color: #272725;
+}
+
+#page-wrapper-main {
+  background: rgba(255, 128, 0, 0.5);
+  height: 100%;
+  padding: 8% 4% 3% 4%;
+  color: #272725;
+}
+
+#main-section-about {
+  display: inline-flex;
+  flex-direction: row;
+  /*justify-content: center;*/
+  align-items: center;
+}
+
+#article-about{
+  font-size: 1.5em;
+  padding: 0 8% 0 0;
+  vertical-align: middle;
+  color: #272725;
+}
+
+img {
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+}
+
+#main-section-skills {
+  color: #272725;
+}
+
+#main-section-skills-div {
+  text-align: center;
+}
+
+.skill-icon {
+  color: rgb(153, 0, 0);
+  font-size: 7em;
+  margin: 2%;
+}
+
+#page-wrapper-main >section {
+  padding: 2%;
+}
+
+#main-section-portfolio-div {
+  text-align: center;
+}
+
+.portfolio-image {
+  height: 125px;
+  width: 225px;
+  border-radius: 10%;
+  margin: 2%;
+}
+#contact-form {
+  padding: 2% auto 2% auto;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contact-form-25 {
+  width: 25%;
+  float: left;
+  margin: 1% 0;
+}
+
+.contact-form-75 {
+  width: 75%;
+  float: left;
+  margin: 1% 0;
+}
+
+#input-email, #input-phone-number, #textarea-message{
+  width: 100%;
+  border: 1px solid #ccc;
+  font-size: 100%;
+
+}
+
+.contact-form-row {
+  margin: 3% auto;
+}
+
+hr {
+  color: black;
+  height: 2px;
+    
+}
+
+#submit-button {
+  color: #272725;;
+  background: rgb(230, 115, 0);
+  text-align: center;
+  padding: 10% 16%;
+  border-radius: 5%;
+}
+
+.row {
+  width: 50%;
+  margin: auto;
+  padding: auto;
+}
+
+footer {
+  text-align: center;
+  color: #272725;
+  background: rgb(255, 128, 0);
+  padding: 1%;
+  line-height: 0.5;
+}
+
+.footer-icon{
+  font-size: 200%;
+}
+
+footer >a {
+  color: #272725;
+}
+
+@media screen and (max-width: 600px) {
+  .portfolio-image {
+    width: 40%;
+  }
+  .row{
+    width: 60%;
+  }
+  
+  .contact-form-75, .contact-form-25 {
+    width: 100%;
+  }
+}
