@@ -30,7 +30,6 @@ h2{
 
 #page-wrapper-main {
   background: rgba(255, 128, 0, 0.5);
-  height: 100%;
   padding: 8% 4% 3% 4%;
   color: #272725;
 }
@@ -126,7 +125,7 @@ hr {
   color: #272725;;
   background: rgb(230, 115, 0);
   text-align: center;
-  padding: 10% 16%;
+  padding: 2% 4%;
   border-radius: 5%;
 }
 
